@@ -49,11 +49,15 @@ indent_size = 4
 [Makefile]
 indent_style = tab
 
-[*.{c,cpp,d}]
+[*.{c,cpp,d,php}]
 # C-style doc comments
 block_comment_start = /*
 block_comment = *
 block_comment_end = */
+
+[*.html]
+block_comment_start = <!--
+block_comment_end = -->
 
 [*.md]
 trim_trailing_whitespace = false
