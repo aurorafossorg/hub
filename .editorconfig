@@ -70,6 +70,6 @@ dfmt_align_switch_statements = true
 dfmt_outdent_attributes = true
 dfmt_split_operator_at_line_end = false
 dfmt_space_after_cast = false
-dfmt_space_after_keywords = false
+dfmt_space_after_keywords = true
 dfmt_selective_import_space = true
 dfmt_compact_labeled_statements = true
